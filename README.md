@@ -1,19 +1,26 @@
-- 👋 Hi, I’m @Jayesh7i
-- 👀 I’m interested in coding
-- 🌱 I’m currently learning python
-- 📫 How to reach me 
+# Jayesh7i v1
 
-<!---
-Jayesh7i/Jayesh7i is a ✨ special ✨ repository because its `README.md` (this file) appears on your GitHub profile.
-You can click the Preview link to take a look at your changes.
---->
-## 📊 My First Mermaid Diagram
+A beginner-friendly Python starter project with a clean `src/` layout, tests, CI, and learning docs.
 
-```mermaid
-gantt
-    title Test Diagram
-    dateFormat YYYY-MM-DD
-    section Example
-    Task A :a1, 2026-02-01, 3d
+## Quick start
+
+```bash
+python -m venv .venv
+source .venv/bin/activate
+pip install -e .
+pip install -r requirements-dev.txt
+pytest
+python -m jayesh7i.cli --name Jayesh
 ```
 
+## Project structure
+
+- `src/jayesh7i/` — package code
+- `tests/` — unit tests
+- `docs/` — Mermaid diagrams and learning roadmap
+- `.github/workflows/ci.yml` — lint + test in CI
+
+## Learning docs
+
+- Intro Gantt diagram: [`docs/diagrams/intro-gantt.md`](docs/diagrams/intro-gantt.md)
+- French A2 roadmap: [`docs/roadmap/french-a2-mermaid.md`](docs/roadmap/french-a2-mermaid.md)

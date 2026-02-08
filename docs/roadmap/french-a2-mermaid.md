@@ -1,3 +1,5 @@
+## French Intensive: 30-Day Roadmap to A2
+
 ```mermaid
 gantt
     title French Intensive: 30-Day Roadmap to A2
